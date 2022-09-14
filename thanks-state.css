@@ -1,0 +1,44 @@
+.thanks-state {
+  align-items: center;
+  padding: 45px 40px 45px 32px;
+}
+.thanks-illustration {
+  width: 162px;
+  height: 108px;
+  background: url("./images/illustration-thank-you.svg") no-repeat center;
+}
+
+.selected-rating {
+  margin-top: 32px;
+  padding: 4px 20px;
+  text-align: center;
+  color: var(--orange);
+  background-color: var(--dark-blue);
+  border-radius: 22.5px;
+}
+
+.thanks-state > .description {
+  text-align: center;
+}
+
+.thanks-state > .title {
+  margin-top: 32px;
+}
+
+@media (max-width: 420px) {
+  .thanks-state {
+    padding: 34px 24px 37px 24px;
+  }
+  .thanks-illustration {
+    width: 144px;
+    height: 96px;
+    background-size: contain;
+  }
+  .thanks-state > .title {
+    margin-top: 24px;
+  }
+
+  .selected-rating {
+    margin-top: 24px;
+  }
+}
